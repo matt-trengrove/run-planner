@@ -1,0 +1,26 @@
+{
+  "name": "run-planner",
+  "version": "1.0.0",
+  "description": "run-planner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-trengrove/run-planner.git"
+  },
+  "author": "Matthew Trengrove",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-trengrove/run-planner/issues"
+  },
+  "homepage": "https://github.com/matt-trengrove/run-planner#readme",
+  "dependencies": {
+    "googleapis": "^50.0.0",
+    "inquirer": "^7.1.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28"
+  }
+}
