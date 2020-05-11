@@ -70,7 +70,7 @@ function readPlan(auth, spreadsheetId, callback) {
           for (let i = 1; i < rows.length; i += 3) {
             const week = rows[i].slice(1).map(title => ({ title }));
 
-            const descriptions = rows[i + 1].slice(1).map(description => ({ description }));
+            const descriptions = rows[i + 1].slice(1);
 
             descriptions.forEach((d, idx) => {
               week[idx].description = d;
